@@ -89,3 +89,36 @@ nav {
   background-color: #7dd3fc;
   transform: translateY(-2px);
 }
+
+/* About Section */
+#about {
+  padding: 80px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #0f172a;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 50px;
+  height: 4px;
+  background-color: #38bdf8;
+  border-radius: 2px;
+}
+
+#about p {
+  font-size: 1.1rem;
+  color: #475569;
+  line-height: 1.8;
+  margin-top: 1rem;
+}
